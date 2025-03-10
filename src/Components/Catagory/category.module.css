@@ -1,0 +1,36 @@
+.category {
+  height: 350px;
+  width: 300px;
+  background-color: white;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+}
+.category img {
+  width: 90%;
+  object-fit: contain;
+  max-height: 250px;
+  padding: 0 10px;
+}
+.category a {
+  text-decoration: none;
+  color: rgb(35, 35, 35);
+}
+.category h2,
+.category p {
+  padding: 5px;
+  margin-left: 15px;
+}
+.category p {
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(9, 132, 209);
+}
+.category_container {
+  position: relative;
+  margin-top: -10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  max-width: 1600px;
+  margin: 0 auto;  
+  place-items: center;
+  gap: 50px;
+}
